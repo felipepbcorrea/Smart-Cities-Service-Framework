@@ -19,7 +19,7 @@
             <p>Servername: <input type="text" name="servername" value="smartcitiesframeworkfct.mysql.database.azure.com:3306"><br></p>
             <p>Database: <input type="text" name="database" value="sensores"><br></p>
             <p>Username: <input type="text" name="username" value="felipepavan@smartcitiesframeworkfct"><br></p>
-            <p>Password: <input type="text" name="password" value="mysql25FCT"><br></p>
+            <p>Password: <input type="password" name="password" value="mysql25FCT"><br></p>
             <br><br>
             <input type="submit" value=" VERIFICAR CONEXÃO" style="width: 200px; height: 60px">
         </form> 

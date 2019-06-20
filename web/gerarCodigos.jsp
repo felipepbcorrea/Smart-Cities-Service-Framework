@@ -58,7 +58,7 @@
                 out.print(session.getAttribute("caminho"));
             }*/
             
-            session.setAttribute("caminho","C:/Users/FELIPE/Desktop/Gerador");
+            //session.setAttribute("caminho","C:/Users/FELIPE/Desktop/Gerador");
             //out.print("https://drive.google.com/open?id=11kR3zKYC7Xx6-_h4p0GeKYX4fGWnvYnT");
             
         %> 

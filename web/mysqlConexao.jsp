@@ -16,7 +16,7 @@
         <label>USERNAME:</label><br/>
         <input type="text" name="username" value="<%= request.getParameter("username")%>" readonly/><br/>
         <label>PASSWORD:</label><br/>
-        <input type="text" name="password" value="<%= request.getParameter("password")%>" readonly/><br/>
+        <input type="password" name="password" value="<%= request.getParameter("password")%>" readonly/><br/>
         
         <br><br>
         <form action="conexaoMySQL">

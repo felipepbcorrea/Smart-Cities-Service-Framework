@@ -1,4 +1,4 @@
-package Servlet;
+package servlet;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -32,8 +32,12 @@ public class ControladorRetornoMySQL extends HttpServlet {
         ArrayList<Tabela> retorno = new ArrayList();
         
         try {
+            
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://" + servername + "/" + database+"?useSSL=true&requireSSL=false", username, password);
+            
+            con = DriverManager.getConnection("jdbc:mysql://" + servername + "/" + 
+                    database+"?useSSL=true&requireSSL=false", username, password);
+            
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException("Erro ao conectar com o banco:" + e);
         }
